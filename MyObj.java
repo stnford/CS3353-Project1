@@ -32,15 +32,13 @@ public class MyObj {
         if (a[0] < x.a[0]){
             return true;
         } 
-        else if ((a[0] == x.a[0]) && (a[1] < x.a[1])){
+        if ((a[0] == x.a[0]) && (a[1] < x.a[1])){
             return true;
         } 
-        else if ((a[0] == x.a[0]) && (a[1] == x.a[1]) && (a[2] < x.a[2])){
+        if ((a[0] == x.a[0]) && (a[1] == x.a[1]) && (a[2] < x.a[2])){
             return true;
         }
-        else{
-            return false; 
-        }
+        return false; 
     }
 
     public void reset() {

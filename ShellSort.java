@@ -119,7 +119,6 @@ public class ShellSort {
                 System.exit(1);
                 return null;
         }
-
         return hlist;
     }
 }
