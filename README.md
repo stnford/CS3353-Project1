@@ -1,3 +1,3 @@
 # CS3353-Project1
-Shell Sort\n
+Shell Sort<br>
 Feb 19, 2025
